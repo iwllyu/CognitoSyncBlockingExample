@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		452785031E088305006B90C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452785021E088305006B90C7 /* AppDelegate.swift */; };
+		452785051E088305006B90C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452785041E088305006B90C7 /* ViewController.swift */; };
+		452785081E088305006B90C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452785061E088305006B90C7 /* Main.storyboard */; };
+		4527850A1E088305006B90C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 452785091E088305006B90C7 /* Assets.xcassets */; };
+		4527850D1E088305006B90C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4527850B1E088305006B90C7 /* LaunchScreen.storyboard */; };
+		81FCA2C3057B47039D2EE36A /* Pods_CognitoSyncBlockingExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A639DAE22F32EAFC269EF5D /* Pods_CognitoSyncBlockingExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DED9CBF23770CB32369092F /* Pods-CognitoSyncBlockingExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CognitoSyncBlockingExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CognitoSyncBlockingExample/Pods-CognitoSyncBlockingExample.debug.xcconfig"; sourceTree = "<group>"; };
+		452784FF1E088305006B90C7 /* CognitoSyncBlockingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CognitoSyncBlockingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		452785021E088305006B90C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		452785041E088305006B90C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		452785071E088305006B90C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		452785091E088305006B90C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4527850C1E088305006B90C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4527850E1E088305006B90C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7BD6D13093405D98D9CE4F /* Pods-CognitoSyncBlockingExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CognitoSyncBlockingExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CognitoSyncBlockingExample/Pods-CognitoSyncBlockingExample.release.xcconfig"; sourceTree = "<group>"; };
+		8A639DAE22F32EAFC269EF5D /* Pods_CognitoSyncBlockingExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CognitoSyncBlockingExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		452784FC1E088305006B90C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FCA2C3057B47039D2EE36A /* Pods_CognitoSyncBlockingExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B1228CF4DC2F6C9B9CB358 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A639DAE22F32EAFC269EF5D /* Pods_CognitoSyncBlockingExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		452784F61E088305006B90C7 = {
+			isa = PBXGroup;
+			children = (
+				452785011E088305006B90C7 /* CognitoSyncBlockingExample */,
+				452785001E088305006B90C7 /* Products */,
+				4E36F601278AEA0D8BE1C35B /* Pods */,
+				22B1228CF4DC2F6C9B9CB358 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		452785001E088305006B90C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				452784FF1E088305006B90C7 /* CognitoSyncBlockingExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		452785011E088305006B90C7 /* CognitoSyncBlockingExample */ = {
+			isa = PBXGroup;
+			children = (
+				452785021E088305006B90C7 /* AppDelegate.swift */,
+				452785041E088305006B90C7 /* ViewController.swift */,
+				452785061E088305006B90C7 /* Main.storyboard */,
+				452785091E088305006B90C7 /* Assets.xcassets */,
+				4527850B1E088305006B90C7 /* LaunchScreen.storyboard */,
+				4527850E1E088305006B90C7 /* Info.plist */,
+			);
+			path = CognitoSyncBlockingExample;
+			sourceTree = "<group>";
+		};
+		4E36F601278AEA0D8BE1C35B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DED9CBF23770CB32369092F /* Pods-CognitoSyncBlockingExample.debug.xcconfig */,
+				7E7BD6D13093405D98D9CE4F /* Pods-CognitoSyncBlockingExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		452784FE1E088305006B90C7 /* CognitoSyncBlockingExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 452785111E088305006B90C7 /* Build configuration list for PBXNativeTarget "CognitoSyncBlockingExample" */;
+			buildPhases = (
+				4BA6F6A970AD00C3545FEB3F /* [CP] Check Pods Manifest.lock */,
+				452784FB1E088305006B90C7 /* Sources */,
+				452784FC1E088305006B90C7 /* Frameworks */,
+				452784FD1E088305006B90C7 /* Resources */,
+				CDF11C73E0D8FFD393610C65 /* [CP] Embed Pods Frameworks */,
+				440494D42541C38C42732148 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CognitoSyncBlockingExample;
+			productName = CognitoSyncBlockingExample;
+			productReference = 452784FF1E088305006B90C7 /* CognitoSyncBlockingExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		452784F71E088305006B90C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = iwllyu;
+				TargetAttributes = {
+					452784FE1E088305006B90C7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 452784FA1E088305006B90C7 /* Build configuration list for PBXProject "CognitoSyncBlockingExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 452784F61E088305006B90C7;
+			productRefGroup = 452785001E088305006B90C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				452784FE1E088305006B90C7 /* CognitoSyncBlockingExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		452784FD1E088305006B90C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4527850D1E088305006B90C7 /* LaunchScreen.storyboard in Resources */,
+				4527850A1E088305006B90C7 /* Assets.xcassets in Resources */,
+				452785081E088305006B90C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		440494D42541C38C42732148 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CognitoSyncBlockingExample/Pods-CognitoSyncBlockingExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BA6F6A970AD00C3545FEB3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CDF11C73E0D8FFD393610C65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CognitoSyncBlockingExample/Pods-CognitoSyncBlockingExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		452784FB1E088305006B90C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452785051E088305006B90C7 /* ViewController.swift in Sources */,
+				452785031E088305006B90C7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		452785061E088305006B90C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				452785071E088305006B90C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4527850B1E088305006B90C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4527850C1E088305006B90C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4527850F1E088305006B90C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		452785101E088305006B90C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		452785121E088305006B90C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DED9CBF23770CB32369092F /* Pods-CognitoSyncBlockingExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CognitoSyncBlockingExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.willyu.CognitoSyncBlockingExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		452785131E088305006B90C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E7BD6D13093405D98D9CE4F /* Pods-CognitoSyncBlockingExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CognitoSyncBlockingExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.willyu.CognitoSyncBlockingExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		452784FA1E088305006B90C7 /* Build configuration list for PBXProject "CognitoSyncBlockingExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4527850F1E088305006B90C7 /* Debug */,
+				452785101E088305006B90C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		452785111E088305006B90C7 /* Build configuration list for PBXNativeTarget "CognitoSyncBlockingExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				452785121E088305006B90C7 /* Debug */,
+				452785131E088305006B90C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 452784F71E088305006B90C7 /* Project object */;
+}

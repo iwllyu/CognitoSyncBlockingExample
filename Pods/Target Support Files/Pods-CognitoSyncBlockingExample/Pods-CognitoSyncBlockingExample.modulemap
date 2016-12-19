@@ -1,0 +1,6 @@
+framework module Pods_CognitoSyncBlockingExample {
+  umbrella header "Pods-CognitoSyncBlockingExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
