@@ -1,6 +1,7 @@
 # CognitoDataSyncBlocking
 
-This project showcases how AWS iOS SDK Cognito Sync deadlocks in poor (100% loss) network conditions
+This project showcases how AWS iOS SDK Cognito Sync deadlocks in poor (100% loss) network conditions.
+Created in response to [this thread on the AWS Developer Forums](https://forums.aws.amazon.com/message.jspa?messageID=756870#756870)
 
 ## Getting Started
 1. Clone the project, open CognitoSyncBlockingExample.xcworkspace
