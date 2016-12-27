@@ -10,15 +10,10 @@ import UIKit
 import AWSCognito
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    }
     
     var dataset: AWSCognitoDataset!
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+    override func viewDidLoad() {
+        super.viewDidLoad()
         
         let datasetName = "datasetName"
         let datasetKey = "datasetKey"
@@ -26,6 +21,10 @@ class ViewController: UIViewController {
         let client = AWSCognito.defaultCognito()
         dataset = client.openOrCreateDataset(datasetName)
         dataset.setString("test string", forKey: datasetKey)
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
     }
 
     @IBAction func clickTwiceToBlockAction(sender: AnyObject) {

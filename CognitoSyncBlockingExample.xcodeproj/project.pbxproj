@@ -12,6 +12,7 @@
 		452785081E088305006B90C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452785061E088305006B90C7 /* Main.storyboard */; };
 		4527850A1E088305006B90C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 452785091E088305006B90C7 /* Assets.xcassets */; };
 		4527850D1E088305006B90C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4527850B1E088305006B90C7 /* LaunchScreen.storyboard */; };
+		457032301E12CDD600ACC39A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4570322F1E12CDD600ACC39A /* README.md */; };
 		81FCA2C3057B47039D2EE36A /* Pods_CognitoSyncBlockingExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A639DAE22F32EAFC269EF5D /* Pods_CognitoSyncBlockingExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		452785091E088305006B90C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4527850C1E088305006B90C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4527850E1E088305006B90C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4570322F1E12CDD600ACC39A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7E7BD6D13093405D98D9CE4F /* Pods-CognitoSyncBlockingExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CognitoSyncBlockingExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CognitoSyncBlockingExample/Pods-CognitoSyncBlockingExample.release.xcconfig"; sourceTree = "<group>"; };
 		8A639DAE22F32EAFC269EF5D /* Pods_CognitoSyncBlockingExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CognitoSyncBlockingExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -51,6 +53,7 @@
 		452784F61E088305006B90C7 = {
 			isa = PBXGroup;
 			children = (
+				4570322F1E12CDD600ACC39A /* README.md */,
 				452785011E088305006B90C7 /* CognitoSyncBlockingExample */,
 				452785001E088305006B90C7 /* Products */,
 				4E36F601278AEA0D8BE1C35B /* Pods */,
@@ -185,7 +188,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		CDF11C73E0D8FFD393610C65 /* [CP] Embed Pods Frameworks */ = {
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				457032301E12CDD600ACC39A /* README.md in Sources */,
 				452785051E088305006B90C7 /* ViewController.swift in Sources */,
 				452785031E088305006B90C7 /* AppDelegate.swift in Sources */,
 			);
@@ -363,6 +367,7 @@
 				452785131E088305006B90C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
